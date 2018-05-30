@@ -1,8 +1,29 @@
 //
+// theme
+//
+$blue: #1991EB !default;
+//
 // fonts
 //
 $font-family-sans-serif:  'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 //
 // body
-$body-bg: #FAFAFA;
+$body-bg: #FAFAFA !default;
+
+$border-radius: .2rem !default;
+$border-radius-lg: .2rem !default;
+$border-radius-sm: .2rem !default;
+
+$spacer: 1rem !default;
+
+// navbar
+$navbar-padding-x: 2*$spacer !default;
+$navbar-nav-link-padding-x: $spacer !default;
+$navbar-light-background-color: #FFFFFF !default;
+$navbar-brand-font-size: 1rem !default;
+
+// buttons
+$input-btn-padding-y: .75rem;
+$input-btn-padding-x: 1.5rem;
+$input-btn-line-height: 1 !default;
