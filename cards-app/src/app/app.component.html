@@ -15,5 +15,28 @@
     <button class="btn btn-primary" type="button">More Products</button>
   </form>
 </nav>
+<div class="p-4"></div>
+<nav class="navbar navbar-expand navbar-light">
+  <a class="navbar-brand" href="#">Cards</a>
+  <ul class="navbar-nav flex-row ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/features" routerLinkActive="active">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/products" routerLinkActive="active">More Products</a>
+    </li>
+  </ul>
+  <form class="form-inline ml-3">
+    <button class="btn btn-primary" type="button">
+      <cards-facebook-icon></cards-facebook-icon>
+    </button>
+    <button class="btn btn-primary" type="button">
+      <cards-twitter-icon></cards-twitter-icon>
+    </button>
+  </form>
+</nav>
 
 <router-outlet></router-outlet>
